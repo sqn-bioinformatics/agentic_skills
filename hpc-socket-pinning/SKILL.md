@@ -26,7 +26,7 @@ Any time you launch a heavy job on this node, pin it to one socket and allocate 
 
 Hyperthread siblings: CPU N and N+48.
 
-## Default launch
+## Launch
 
 ```bash
 nohup nice -n 5 taskset -c "$CPU_SET" \
